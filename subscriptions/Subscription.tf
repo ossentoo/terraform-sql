@@ -15,9 +15,16 @@ module "application-dev"{
     sqlserver = "dev"
 }
 
-module "application-int"{
+module "application-uat"{
     source = "../environments/dev/databases"
     application = "application"
     environment = "dev"
     sqlserver = "dev"
+}
+
+module "application-prd"{
+    source = "../environments/prd/databases"
+    application = "application"
+    environment = "prd"
+    sqlserver = "prd"
 }
