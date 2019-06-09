@@ -18,3 +18,10 @@ To run this, please set environment variables in the terminal/bash shell like so
 where zzz and yyy are the values for the azure clientid, secret, tenantid and subscription.
 
 Also, run "terraform init" from within the **subscriptions** folder.
+
+To run this sample:
+- run the export commands to set the variables
+- cd into the subscriptions folder
+- run *terraform init*
+- run *terraform plan*
+- run *terraform apply -auto-approve*

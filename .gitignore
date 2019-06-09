@@ -1,1 +1,3 @@
 subscriptions/.terraform/terraform.tfstate
+.terraform/plugins/darwin_amd64/lock.json
+.terraform/plugins/darwin_amd64/terraform-provider-azurerm_v1.27.1_x4
