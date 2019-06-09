@@ -1,10 +1,10 @@
-terraform {
-  backend "azurerm" {
-    storage_account_name  = "terraformapplicationdev"
-    container_name        = "terraform"
-    key                   = "terraform.tfstate"
-  }
-}
+# terraform {
+#   backend "azurerm" {
+#     storage_account_name  = "terraformapplicationdev"
+#     container_name        = "terraform"
+#     key                   = "terraform.tfstate"
+#   }
+# }
 
 # export ARM_ACCESS_KEY=$(az keyvault secret show --name terraform-backend-key --vault-name terraformapplicationdev --query value -o tsv)
 
